@@ -1,0 +1,39 @@
+body {
+  background: var(--bg);
+  color: var(--text);
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.card {
+  transition: transform 0.2s ease-in-out, background 0.3s ease;
+  background-color: var(--card-bg);
+}
+
+.card-title {
+  color: var(--heading);
+}
+
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+:root {
+  --bg: #ffffff;
+  --text: #000000;
+  --card-bg: #ffffff;
+  --heading: #000000;
+}
+
+.dark-mode {
+  --bg: #121212;
+  --text: #f1f1f1;
+  --card-bg: #1e1e1e;
+  --heading: #ffffff;
+}
+
+.dark-mode .btn-outline-primary {
+  color: #fff;
+  border-color: #ffffff77;
+}
+
