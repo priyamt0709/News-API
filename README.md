@@ -9,7 +9,6 @@ This project is a Python Flask web application that fetches news using the GNews
 - Responsive UI with Bootstrap
 
 ## Setup
-
 news_api_project/
 ├── app.py                  ← Flask backend
 ├── templates/
