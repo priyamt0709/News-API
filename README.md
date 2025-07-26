@@ -8,18 +8,6 @@ This project is a Python Flask web application that fetches news using the GNews
 - Modern dark mode toggle
 - Responsive UI with Bootstrap
 
-## Setup
-news_api_project/
-├── app.py                  ← Flask backend
-├── templates/
-│   └── index.html          ← Frontend UI with Bootstrap
-├── static/
-│   ├── css/
-│   │   └── style.css       ← Dark/light mode styles
-│   └── js/
-│       └── script.js       ← JS for fetching news & toggle
-
-
 ## 🧪 How to Run
 
 1. Clone this repo
